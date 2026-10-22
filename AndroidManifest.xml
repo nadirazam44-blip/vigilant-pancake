@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <package android:name="com.happproxy" />
+        <package android:name="com.dts.freefireth" />
+        <package android:name="com.dts.freefiremax" />
+    </queries>
+    <application android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:label="ZOMA XIT" android:usesCleartextTraffic="false">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
